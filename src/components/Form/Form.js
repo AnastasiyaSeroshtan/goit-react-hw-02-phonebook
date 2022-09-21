@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import React from "react";
-import { Box } from "./Box";
+import { Box } from "../Box";
 
 export class Form extends React.Component{
     state = {
