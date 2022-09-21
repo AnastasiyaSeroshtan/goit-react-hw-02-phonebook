@@ -50,7 +50,7 @@ export class App extends React.Component{
  render() {
   const visibleContacts = this.getVisibleContacts();
   return (
-    <Box bg="muted" p={3} border="normal" borderColor="lightGray" borderRadius="normal" width="30%"  boxShadow="0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    <Box bg="muted" p={3} border="normal" borderColor="lightGray" borderRadius="normal" width="25%"  boxShadow="0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16)" textAlign="center" margin="0 auto">
       <Header>Phonebook</Header>
       <Form onSubmit={this.addContact}/>

@@ -12,7 +12,7 @@ export const InputStyled = styled.input`
     border: ${p => p.theme.borders.normal};
     border-color: ${p => p.theme.colors.black};
     border-radius: ${p => p.theme.radii.normal};
-    width: 98%;
+    width: 60%;
     height: ${p => p.theme.space[5]}px;
     :hover{
         border-color: ${p => p.theme.colors.accent};
